@@ -1,0 +1,29 @@
+body {
+    background-color: purple;
+}
+h1 {
+    background-color: greenyellow;
+}
+p {
+    color: white;
+}
+.awesome {
+    text-transform: uppercase;
+    color: beige;
+    font-size: 2em;
+    border:1px solid white;
+    padding:10px;
+    padding-bottom:20px;
+    margin:100px;
+    background-color: blue;
+    text-align: center;
+}
+
+.cool {
+    width: 100px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+#awesomly {
+    font-family: 'Dongle', sans-serif;
+}

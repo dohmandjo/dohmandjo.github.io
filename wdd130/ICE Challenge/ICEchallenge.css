@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+    margin-left: 300px;
+    margin-right: 300 px;
+}
+h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border: 10px transparent;
+}
+.img {
+    width : 100px;
+    height : 200px;
+    object-fit: contain;
+    text-align: center;
+}
+q {
+   color: white;
+   font-size: 2em;
+   text-align: center;
+}
+.ol {
+    padding: 200px;
+    text-align: center;
+}
+.lds{
+    color:black;
+    text-align: center;
+    font-size: 2em;
+}
+.lesson {
+    color:white;
+    text-align: center
+}
+.theman {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+
+}
