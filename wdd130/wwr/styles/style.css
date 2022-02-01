@@ -1,5 +1,5 @@
 body {
-    background-color: #fcfbfb;
+    background-color: #39c9c1;
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -30,7 +30,8 @@ section {
     text-align: center;
 }
 #background {
-    height: 725px;
+    height: 750px;
+    background-color: #934432;
 }
 .home-title h4 {
     color: #32936f;
@@ -38,26 +39,40 @@ section {
 .book, .join {
     color: white;
     text-decoration: none;
+    background-color: skyblue;
 }
 .book:hover, .join:hover {
     color: green;
+    background-color: seashell;
+}
+.msg {
+    background-color: rgb(91 194 241);
 }
 .msg h2 {
-    color: mediumaquamarine;
+    color: rgb(0, 0, 0);
 }
 .msg p {
-    color: white;
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: rgb(91, 194, 241);
 }
 footer h3 {
-    color: #98c1d9;
+    color: #000000;
 }
 footer a {
-    color: rgb(91, 194, 241);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 footer a:hover {
     color: green;
 }
+footer h3 a:hover {
+    text-decoration: none;
+}
 #hero-img {
     width: 100%;
+}
+.icon {
+    width: 80px;
 }

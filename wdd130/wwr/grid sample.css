@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(70, 43, 226);
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.frogcolor {
+    background-color: green;
+}
+.jumping {
+    background-color: yellow;
+}
+.jumping div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.eating {
+    grid-row: 1;
+    grid-row: 3;
+    background-color: red;
+}
