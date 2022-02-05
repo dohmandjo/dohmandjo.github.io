@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yellowtail&display=swap');
+
 body {
     background-color: #39c9c1;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
 header {
     background-color: rgba(20,30,13, .7);
+    font-family: "Yellotail", ;
 }
 #content {
     max-width: 1600px;
@@ -12,10 +20,14 @@ nav a:hover {
     background-color: rgb(231, 211, 211);
     color: #3d5a80;
 }
-nav a{
+nav a {
     color: #98c1d9;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
+}
+h2 {
+    margin: 0;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -23,10 +35,7 @@ nav a{
 .botton-box {
     text-align: center;
 }
-main {
-    text-align: center;
-}
-section {
+main section {
     text-align: center;
 }
 #background {
@@ -35,11 +44,17 @@ section {
 }
 .home-title h4 {
     color: #32936f;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .book, .join {
     color: white;
     text-decoration: none;
     background-color: skyblue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color: green;
@@ -47,15 +62,24 @@ section {
 }
 .msg {
     background-color: rgb(91 194 241);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: rgb(0, 0, 0);
 }
 .msg p {
     color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: rgb(91, 194, 241);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer h3 {
     color: #000000;
@@ -75,4 +99,17 @@ footer h3 a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+#local-link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #98c1d9;
+}
+main section img {
+    box-sizing: border-box;
 }
