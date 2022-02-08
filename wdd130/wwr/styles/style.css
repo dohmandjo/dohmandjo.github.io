@@ -113,3 +113,7 @@ footer h3 a:hover {
 main section img {
     box-sizing: border-box;
 }
+.mountains {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
