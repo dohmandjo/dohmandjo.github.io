@@ -1,0 +1,29 @@
+body, h1, h2, h3, h4, h6, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(225, 233, 232);
+}
+a:link, a:visited, a:hover, a:active {
+    color: rgb(38, 172, 235);
+}
+main h2{
+    color: black;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 200px, 400px;
+    gap: 65px;
+    font-size: 50px;
+    margin: 10px auto;
+}
+h2 {
+    color: black;
+    font-size: 1.3em;
+    margin-bottom: 33px;
+}
+ul {
+
+}
