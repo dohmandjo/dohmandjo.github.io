@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #577399;
-    font-family: "Lato", ;
+    font-family: "Lato";
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -18,7 +18,7 @@ header {
     max-width: 1600px;
     margin: 0 auto;
 }
-/*nav a:hover {
+nav a:hover {
     background-color: #BDD5EA;
     color: #FE5448;
 }
@@ -32,7 +32,7 @@ nav a {
     text-decoration: none;
     padding: 35px;
     font-size: 30px;
-}*/
+}
 
 
 .home {
@@ -103,10 +103,6 @@ nav a {
 
 
 
-
-
-
-
 footer{
     background-color: #577399;
     padding: 25px 50px;
@@ -117,7 +113,7 @@ footer{
     font-size: 30px;
 }
 
-/* Dropdown Button */
+/* Dropdown Button 
 .dropbtn {
     background-color: #BDD5EA;
     color: #495867;
@@ -129,13 +125,13 @@ footer{
     display:center;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  /* The container <div> - needed to position the dropdown content
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content (Hidden by Default)
   .dropdown-content {
     display: none;
     position: absolute;
@@ -145,7 +141,7 @@ footer{
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* Links inside the dropdown
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -153,11 +149,11 @@ footer{
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
+  /* Change color of dropdown links on hover
   .dropdown-content a:hover {background-color: #FE5448;}
   
-  /* Show the dropdown menu on hover */
+  /* Show the dropdown menu on hover
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #FE5448;}
+  /* Change the background color of the dropdown button when the dropdown content is shown
+  .dropdown:hover .dropbtn {background-color: #FE5448;} */
